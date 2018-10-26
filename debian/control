@@ -1,9 +1,9 @@
-Source: mylyrics
+Source: lyrics
 Maintainer: Fernando da Silva Sousa <wild.nando@gmail.com>
 Section: sound
 Priority: optional
 Standards-Version: 3.9.2
-Homepage: https://github.com/naaando/mylyrics
+Homepage: https://github.com/naaando/lyrics
 Build-Depends: debhelper (>=9),
                gettext,
                libgee-0.8-dev,
@@ -14,7 +14,7 @@ Build-Depends: debhelper (>=9),
                meson,
                valac
 
-Package: mylyrics
+Package: lyrics
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Pre-Depends: dpkg (>= 1.15)
