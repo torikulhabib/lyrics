@@ -1,4 +1,4 @@
-Source: lyrics
+Source: com.github.naaando.lyrics
 Maintainer: Fernando da Silva Sousa <wild.nando@gmail.com>
 Section: sound
 Priority: optional
@@ -14,7 +14,7 @@ Build-Depends: debhelper (>=9),
                meson,
                valac
 
-Package: lyrics
+Package: com.github.naaando.lyrics
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Pre-Depends: dpkg (>= 1.15)
