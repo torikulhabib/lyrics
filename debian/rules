@@ -14,16 +14,21 @@
 
 override_dh_auto_clean:
 	rm -rf debian/build
+	rm -rf debian/build-lyricsources
 
 override_dh_auto_configure:
 	mkdir -p debian/build
-	cd debian/build && meson --prefix=/usr ../..
+	meson debian/build --prefix=/usr
+	meson debian/build-lyricsources lyricsources --prefix=/usr
 
 override_dh_auto_build:
-	cd debian/build && ninja -v
+	ninja -C debian/build -v
+	ninja -C debian/build-lyricsources -v
 
 override_dh_auto_test:
-	cd debian/build && ninja test
+	ninja -C debian/build test
+	ninja -C debian/build test
 
 override_dh_auto_install:
-	cd debian/build && DESTDIR=${CURDIR}/debian/com.github.naaando.lyrics ninja install
+	DESTDIR=${CURDIR}/debian/com.github.naaando.lyrics ninja -C debian/build install
+	DESTDIR=${CURDIR}/debian/com.github.naaando.lyricsources ninja -C debian/build-lyricsources install

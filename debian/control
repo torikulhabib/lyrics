@@ -1,4 +1,4 @@
-Source: com.github.naaando.lyrics
+Source: lyrics
 Maintainer: Fernando da Silva Sousa <wild.nando@gmail.com>
 Section: sound
 Priority: optional
@@ -12,10 +12,17 @@ Build-Depends: debhelper (>=9),
                libcairo2-dev,
                libgranite-dev,
                meson,
+               python,
                valac
 
 Package: com.github.naaando.lyrics
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: com.github.naaando.lyricsources, ${misc:Depends}, ${shlibs:Depends}
 Pre-Depends: dpkg (>= 1.15)
 Description: Lyric display...
+
+Package: com.github.naaando.lyricsources
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Pre-Depends: dpkg (>= 1.15)
+Description: Python library to provide song lyrics
