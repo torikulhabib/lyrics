@@ -17,12 +17,6 @@ Build-Depends: debhelper (>=9),
 
 Package: com.github.naaando.lyrics
 Architecture: any
-Depends: com.github.naaando.lyricsources, ${misc:Depends}, ${shlibs:Depends}
-Pre-Depends: dpkg (>= 1.15)
-Description: Lyric display...
-
-Package: com.github.naaando.lyricsources
-Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Pre-Depends: dpkg (>= 1.15)
-Description: Python library to provide song lyrics
+Description: Lyric display...
