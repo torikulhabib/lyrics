@@ -1,4 +1,10 @@
-lyrics (0.1) UNRELEASED; urgency=medium
+lyrics (0.2) bionic; urgency=medium
+
+  * Add user settings
+
+ -- Fernando da Silva Sousa <wild.nando@gmail.com>  Tue, 08 Jan 2019 11:24:19 -0200
+
+lyrics (0.1) bionic; urgency=medium
 
   * Initial release.
   * Fix issue where lyrics are saved on current folder of running application
