@@ -12,11 +12,10 @@ Build-Depends: debhelper (>=9),
                libcairo2-dev,
                libgranite-dev,
                meson,
-               python,
                valac
 
 Package: com.github.naaando.lyrics
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}, python
 Pre-Depends: dpkg (>= 1.15)
 Description: Lyric display...
