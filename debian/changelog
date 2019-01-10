@@ -1,3 +1,9 @@
+com.github.naaando.lyrics (0.2.1) bionic; urgency=medium
+
+  * Fix lyricsources library path
+
+ -- Fernando da Silva Sousa <wild.nando@gmail.com>  Thu, 10 Jan 2019 21:11:01 -0200
+
 com.github.naaando.lyrics (0.2) bionic; urgency=medium
 
   * Add user settings
