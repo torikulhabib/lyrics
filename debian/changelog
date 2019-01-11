@@ -1,3 +1,9 @@
+com.github.naaando.lyrics (0.2.2) bionic; urgency=medium
+
+  * Add missing python dependencies
+
+ -- Fernando da Silva Sousa <wild.nando@gmail.com>  Thu, 10 Jan 2019 23:52:25 -0200
+
 com.github.naaando.lyrics (0.2.1) bionic; urgency=medium
 
   * Fix lyricsources library path

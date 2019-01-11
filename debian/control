@@ -16,6 +16,11 @@ Build-Depends: debhelper (>=9),
 
 Package: com.github.naaando.lyrics
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}, python
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+         python,
+         python-dbus,
+         python-gobject-2,
+         python-pycurl,
 Pre-Depends: dpkg (>= 1.15)
 Description: Lyric display...
