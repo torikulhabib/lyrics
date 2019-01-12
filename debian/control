@@ -12,7 +12,8 @@ Build-Depends: debhelper (>=9),
                libcairo2-dev,
                libgranite-dev,
                meson,
-               valac
+               valac,
+               python
 
 Package: com.github.naaando.lyrics
 Architecture: any
