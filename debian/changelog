@@ -1,3 +1,9 @@
+com.github.naaando.lyrics (0.4.2) bionic; urgency=medium
+
+  * Fix compacted lyric issue
+
+ -- Fernando da Silva Sousa <wild.nando@gmail.com>  Sun, 13 Jan 2019 12:44:50 -0200
+
 com.github.naaando.lyrics (0.4.1) bionic; urgency=medium
 
   * Big rewrite of Parser
