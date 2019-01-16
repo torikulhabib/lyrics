@@ -1,3 +1,9 @@
+com.github.naaando.lyrics (0.4.3) bionic; urgency=medium
+
+  * Fix 'window keep above' setting ignoring 'When playing' setting
+
+ -- Fernando da Silva Sousa <wild.nando@gmail.com>  Wed, 16 Jan 2019 19:48:37 -0200
+
 com.github.naaando.lyrics (0.4.2) bionic; urgency=medium
 
   * Fix compacted lyric issue
