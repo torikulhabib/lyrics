@@ -1,3 +1,10 @@
+com.github.naaando.lyrics (0.4.5) bionic; urgency=medium
+
+  * Fix play and pause icons on player control button
+  * Fix error where closing the player may lead to lyrics displaying still
+
+ -- Fernando da Silva Sousa <wild.nando@gmail.com>  Sun, 20 Jan 2019 05:16:46 -0200
+
 com.github.naaando.lyrics (0.4.4) bionic; urgency=medium
 
   * Fix window keep above setting again (damn ...)
