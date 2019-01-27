@@ -1,0 +1,66 @@
+{
+    "app-id": "com.github.naaando.lyrics",
+    "runtime": "org.freedesktop.Platform",
+    "runtime-version": "18.08",
+    "sdk": "org.freedesktop.Sdk",
+    "command": "com.github.naaando.lyrics",
+    "base": "io.elementary.Loki.BaseApp",
+    "base-version": "stable",
+    "build-options": {
+        "env": {
+            "PKG_CONFIG_GOBJECT_INTROSPECTION_1_0_GIRDIR": "/app/share/gir-1.0",
+            "PKG_CONFIG_GOBJECT_INTROSPECTION_1_0_TYPELIBDIR": "/app/lib/girepository-1.0"
+        }
+    },
+    "finish-args": [
+        "--socket=x11",
+        "--socket=wayland",
+        "--socket=system-bus",
+        "--share=network",
+        "--talk-name=ca.desrt.dconf",
+        "--filesystem=xdg-run/dconf",
+        "--filesystem=~/.config/dconf:ro",
+        "--env=DCONF_USER_CONFIG_DIR=.config/dconf"
+    ],
+    "cleanup": [
+        "/include",
+        "/lib/pkgconfig",
+        "/share/vala",
+        "/share/gir-1.0",
+        "/share/gtk-doc",
+        "/lib/girepository-1.0",
+        "/lib/*.la"
+    ],
+    "modules": [
+        {
+            "name": "lyricsources",
+            "buildsystem": "meson",
+            "builddir": true,
+            "config-opts": [
+                "--buildtype=release"
+            ],
+            "sources": [
+                {
+                  "type": "archive",
+                  "url": "https://github.com/naaando/lyricsources/archive/0.1.zip",
+                  "sha256": "bfd60825dfb739f7d2fcf12f2f674c32ad2bb44a05b47d06b82212ee2396b0ab"
+                }
+            ]
+        },
+        {
+            "name": "lyrics",
+            "buildsystem": "meson",
+            "builddir": true,
+            "config-opts": [
+              "--buildtype=release"
+            ],
+            "sources": [
+                {
+                   "type":"archive",
+                   "url":"https://github.com/naaando/lyrics/archive/0.4.5.tar.gz",
+                   "sha256":"89e450648d624931cad58d2d1cbb0bf03757f549c920fdbc856428cb2aab6600"
+                }
+            ]
+        }
+    ]
+}
