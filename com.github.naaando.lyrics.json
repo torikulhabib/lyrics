@@ -24,21 +24,6 @@
     ],
     "modules": [
         {
-            "name": "lyricsources",
-            "buildsystem": "meson",
-            "builddir": true,
-            "config-opts": [
-                "--buildtype=release"
-            ],
-            "sources": [
-                {
-                  "type": "archive",
-                  "url": "https://github.com/naaando/lyricsources/archive/0.1.zip",
-                  "sha256": "bfd60825dfb739f7d2fcf12f2f674c32ad2bb44a05b47d06b82212ee2396b0ab"
-                }
-            ]
-        },
-        {
             "name": "lyrics",
             "buildsystem": "meson",
             "builddir": true,
@@ -48,8 +33,8 @@
             "sources": [
                 {
                    "type":"archive",
-                   "url":"https://github.com/naaando/lyrics/archive/0.4.5.tar.gz",
-                   "sha256":"89e450648d624931cad58d2d1cbb0bf03757f549c920fdbc856428cb2aab6600"
+                   "url":"https://github.com/naaando/lyrics/archive/0.4.6.tar.gz",
+                   "sha256":"5a4a0821384e5c69005ba9564c1e33893f1ca4566e85c13827f09cb626b91007"
                 }
             ]
         }
