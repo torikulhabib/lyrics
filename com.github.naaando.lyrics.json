@@ -22,15 +22,6 @@
         "--filesystem=~/.config/dconf:ro",
         "--env=DCONF_USER_CONFIG_DIR=.config/dconf"
     ],
-    "cleanup": [
-        "/include",
-        "/lib/pkgconfig",
-        "/share/vala",
-        "/share/gir-1.0",
-        "/share/gtk-doc",
-        "/lib/girepository-1.0",
-        "/lib/*.la"
-    ],
     "modules": [
         {
             "name": "lyricsources",
