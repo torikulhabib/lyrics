@@ -1,7 +1,7 @@
 {
     "app-id": "com.github.naaando.lyrics",
     "base": "io.elementary.BaseApp",
-    "base-version": "stable",
+    "base-version": "juno",
     "runtime": "org.gnome.Platform",
     "runtime-version": "3.30",
     "sdk": "org.gnome.Sdk",
