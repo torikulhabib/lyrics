@@ -1,11 +1,11 @@
 {
     "app-id": "com.github.naaando.lyrics",
-    "runtime": "org.freedesktop.Platform",
-    "runtime-version": "18.08",
-    "sdk": "org.freedesktop.Sdk",
-    "command": "com.github.naaando.lyrics",
-    "base": "io.elementary.Loki.BaseApp",
+    "base": "io.elementary.BaseApp",
     "base-version": "stable",
+    "runtime": "org.gnome.Platform",
+    "runtime-version": "3.30",
+    "sdk": "org.gnome.Sdk",
+    "command": "com.github.naaando.lyrics",
     "build-options": {
         "env": {
             "PKG_CONFIG_GOBJECT_INTROSPECTION_1_0_GIRDIR": "/app/share/gir-1.0",
