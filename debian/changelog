@@ -1,3 +1,9 @@
+com.github.naaando.lyrics (0.5.1) bionic; urgency=medium
+
+  * 0.5.1
+
+ -- Fernando da Silva Sousa <wild.nando@gmail.com>  Sun, 30 Jan 2019 00:00:00 -0200
+
 com.github.naaando.lyrics (0.5.0) bionic; urgency=medium
 
   * Changelog will be shipped inside appdata.xml from now
