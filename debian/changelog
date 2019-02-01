@@ -1,3 +1,10 @@
+com.github.naaando.lyrics (0.6.0) bionic; urgency=medium
+
+  * 0.6.0
+  * Removes granite from dependencies
+
+ -- Fernando da Silva Sousa <wild.nando@gmail.com>  Fri, 01 Feb 2019 10:31:01 -0200
+
 com.github.naaando.lyrics (0.5.2) bionic; urgency=medium
 
   * 0.5.2
